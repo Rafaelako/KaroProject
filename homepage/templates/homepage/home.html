@@ -1,12 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
+ {% if user.is_authenticated %}
+    {% else %}
     <main class="box-parent">
-        <div class="box">
-            Home<br>
-            Login<br>
-            or<br>
-            Signup<br>
+        <div class="box2">
+            <h1 style="text-align: center">HOME</h1><br><br>
+            <a class="loginbtn" href="{% url 'login' %}">Login</a>
+            <a class="signupbtn" href="{% url 'signup' %}">Register</a>
         </div>
     </main>
+    {% endif %}
+
 {% endblock %}
