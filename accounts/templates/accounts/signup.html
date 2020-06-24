@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if error %}
+{{ error }}
+<br>
+<br>
+{% endif %}
+
+    <main class="box-parent">
+        <div class="box">
+            <h1 style="text-align: center">SIGN UP</h1><br>
+            <form method="POST" action="{% url 'signup' %}">
+            {% csrf_token %}
+                First Name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Last Name</br>
+                <input class="entry" type="text" name="firstname"/> &nbsp; &nbsp; &nbsp;
+                <input class="entry" type="text" name="lastname"/>
+                <br><br>Address <br>
+                <input class="entry entry1" type="text" name="address"/>
+                <br></br>Email <br>
+                <input class="entry entry2" type="text" name="username"/>
+                <br><br>Password <br>
+                <input class="entry entry3" type="password" name="pass1"/>
+                <br><br>Confirm Password <br>
+                <input class="entry entry3" type="password" name="pass2"/>
+                <br>
+                <br>
+                <input class="btn" type="submit" value="Register"/>
+            </form>
+        </div>
+    </main>
+{% endblock %}

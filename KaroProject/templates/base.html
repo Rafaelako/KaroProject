@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <title>Base</title>
+    </head>
+
+    <header>
+        <ul class="nav-main">
+            <li style="float: left"><a class="home" href="{% url 'home' %}">Home</a></li>
+            {% if user.is_authenticated %}
+            <li><a class="home" href="javascript:{document.getElementById('logout').submit()}">Logout</a></li>
+            <form id="logout" method="POST" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <input type="hidden" />
+            </form>
+            {% else %}
+            <li><a class="home" href="{% url 'signup' %}">Register</a></li>
+            <li><a class="home" href="{% url 'login' %}">Login</a></li>
+            {% endif %}
+        </ul>
+    </header>
+
+{% block content %}
+{% endblock %}
+
