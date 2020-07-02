@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'KaroProject.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'KaroProjectdb',
+        'NAME': 'karoprojectdb',
         'USER':'postgres',
         'PASSWORD':'1998rafo',
         'HOST':'localhost',
