@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e69afd-469c-4a36-bb37-c4eaa3d1f353" name="Default Changelist" comment="" />
+    <list default="true" id="d2e69afd-469c-4a36-bb37-c4eaa3d1f353" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaroProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KaroProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,30 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KaroProject/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="81" column="15" selection-start-line="78" selection-end-line="87" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="71" />
+            <state relative-caret-position="321">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="e#330#336#0" expanded="true" />
@@ -74,50 +60,65 @@
                 <element signature="e#428#434#0" expanded="true" />
                 <element signature="e#435#441#0" expanded="true" />
                 <element signature="e#442#448#0" expanded="true" />
-                <element signature="e#531#537#0" expanded="true" />
-                <element signature="e#538#544#0" expanded="true" />
-                <element signature="e#545#551#0" expanded="true" />
+                <element signature="e#541#547#0" expanded="true" />
+                <element signature="e#548#554#0" expanded="true" />
+                <element signature="e#555#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KaroProject/templates/confirm_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/models.py">
+        <entry file="file://$PROJECT_DIR$/homepage/models.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KaroProject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1161">
+              <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KaroProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#1#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1942">
+              <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -143,21 +144,21 @@
         <option value="$PROJECT_DIR$/static/css/signup.css" />
         <option value="$PROJECT_DIR$/KaroProject/urls.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/signup.html" />
         <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/KaroProject/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/homepage/templates/homepage/home.html" />
         <option value="$PROJECT_DIR$/KaroProject/templates/confirm_template.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/KaroProject/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/signup.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
-    <option name="y" value="144" />
+    <option name="x" value="183" />
+    <option name="y" value="62" />
     <option name="width" value="1709" />
     <option name="height" value="808" />
   </component>
@@ -280,8 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="144" width="1709" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="183" y="62" width="1709" height="808" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1262717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,9 +303,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/style.css" />
     <entry file="file://$PROJECT_DIR$/static/css/Grid.css" />
     <entry file="file://$PROJECT_DIR$/static/css/normalize.css" />
@@ -342,30 +339,6 @@
     <entry file="file://$PROJECT_DIR$/KaroProject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KaroProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KaroProject/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -398,36 +371,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="e#330#336#0" expanded="true" />
-            <element signature="e#337#343#0" expanded="true" />
-            <element signature="e#344#350#0" expanded="true" />
-            <element signature="e#351#357#0" expanded="true" />
-            <element signature="e#358#364#0" expanded="true" />
-            <element signature="e#365#371#0" expanded="true" />
-            <element signature="e#372#378#0" expanded="true" />
-            <element signature="e#379#385#0" expanded="true" />
-            <element signature="e#386#392#0" expanded="true" />
-            <element signature="e#393#399#0" expanded="true" />
-            <element signature="e#400#406#0" expanded="true" />
-            <element signature="e#407#413#0" expanded="true" />
-            <element signature="e#414#420#0" expanded="true" />
-            <element signature="e#421#427#0" expanded="true" />
-            <element signature="e#428#434#0" expanded="true" />
-            <element signature="e#435#441#0" expanded="true" />
-            <element signature="e#442#448#0" expanded="true" />
-            <element signature="e#531#537#0" expanded="true" />
-            <element signature="e#538#544#0" expanded="true" />
-            <element signature="e#545#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -476,10 +419,74 @@
     <entry file="file://$PROJECT_DIR$/homepage/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1942">
+          <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KaroProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KaroProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="81" column="15" selection-start-line="78" selection-end-line="87" selection-end-column="1" />
+        <state relative-caret-position="1161">
+          <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="e#330#336#0" expanded="true" />
+            <element signature="e#337#343#0" expanded="true" />
+            <element signature="e#344#350#0" expanded="true" />
+            <element signature="e#351#357#0" expanded="true" />
+            <element signature="e#358#364#0" expanded="true" />
+            <element signature="e#365#371#0" expanded="true" />
+            <element signature="e#372#378#0" expanded="true" />
+            <element signature="e#379#385#0" expanded="true" />
+            <element signature="e#386#392#0" expanded="true" />
+            <element signature="e#393#399#0" expanded="true" />
+            <element signature="e#400#406#0" expanded="true" />
+            <element signature="e#407#413#0" expanded="true" />
+            <element signature="e#414#420#0" expanded="true" />
+            <element signature="e#421#427#0" expanded="true" />
+            <element signature="e#428#434#0" expanded="true" />
+            <element signature="e#435#441#0" expanded="true" />
+            <element signature="e#442#448#0" expanded="true" />
+            <element signature="e#541#547#0" expanded="true" />
+            <element signature="e#548#554#0" expanded="true" />
+            <element signature="e#555#561#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
