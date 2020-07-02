@@ -126,13 +126,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'staticfiles'),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = "/home/rafael/KaroProject/staticfiles"
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass
 
