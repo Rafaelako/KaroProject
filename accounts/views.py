@@ -1,6 +1,10 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib import auth
+from django.contrib.auth import get_user_model
+from django_email_verification import sendConfirm
+
+
 
 
 def signup(request):
@@ -10,8 +14,10 @@ def signup(request):
                 user = User.objects.get(username=request.POST['username'])
                 return render(request, 'accounts/signup.html', {'error': 'Email is already registered'})
             except User.DoesNotExist:
-                user = User.objects.create_user(request.POST['username'], password=request.POST['pass1'])
-                auth.login(request, user)
+                '''user = User.objects.create_user(request.POST['username'], password=request.POST['pass1'])
+                auth.login(request, user)'''
+                user = get_user_model().objects.create_user(username=request.POST['username'], password=request.POST['pass1'], email=request.POST['username'])
+                sendConfirm(user)
                 return redirect('home')
         else:
             return render(request, 'accounts/signup.html', {'error': 'Passwords must match'})
